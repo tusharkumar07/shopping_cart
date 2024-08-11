@@ -1,0 +1,373 @@
+import randomBrand from "../utils/randomBrand";
+import randomNum from "../utils/randomNumber";
+import sofaImg1 from "../assets/img/sofaImg1.webp"
+import sofaImg2 from "../assets/img/sofaImg2.webp"
+import sofaImg3 from "../assets/img/sofaImg3.webp"
+import sofaImg4 from "../assets/img/sofaImg4.jpg"
+import sofaImg5 from "../assets/img/sofaImg5.jpeg"
+import cabinateImg1 from "../assets/img/cabinateImg1.webp"
+import cabinateImg2 from "../assets/img/cabinateImg2.jpeg"
+import cabinateImg3 from "../assets/img/cabinateImg3.webp"
+import cabinateImg4 from "../assets/img/cabinateImg4.jpg"
+import cabinateImg5 from "../assets/img/cabinateImg5.webp"
+import chairImg1 from "../assets/img/chairImg1.avif"
+import chairImg2 from "../assets/img/chairImg2.jpeg"
+import chairImg3 from "../assets/img/chairImg3.webp"
+import chairImg4 from "../assets/img/chairImg4.jpeg"
+import chairImg5 from "../assets/img/chairImg5.webp"
+
+import tableImg1 from "../assets/img/tableImg1.webp"
+import tableImg2 from "../assets/img/tableImg2.webp"
+import tableImg3 from "../assets/img/tableImg3.jpg"
+import tableImg4 from "../assets/img/tableImg4.jpg"
+import tableImg5 from "../assets/img/tableImg5.jpg"
+
+const furniture_data = [
+  // =============================================
+  // =============== SOFA SECTION ================
+  // =============================================
+  {
+    id: 1,
+    name: "Seiv 2 Seater Sofa",
+    desc: "A Modern Contemporary sofa upholstered in fabric padded with polyurethane foam, constructed from plywood and solidwood with metal legs.",
+    price: "13000",
+    category: { id: 1, name: "Sofa" },
+    img: sofaImg1,
+    brand: randomBrand(),
+    color: "Gray",
+    sku: randomNum(10),
+    stock: randomNum(2),
+    size: "2 Seater",
+  },
+  {
+    id: 2,
+    name: "Major Sofabed",
+    desc: "A Modern Contemporary sofabed fully padded and upholstered in fabric with stitching detail, with wooden legs.",
+    price: "16200",
+    category: { id: 1, name: "Sofa" },
+    img: sofaImg2,
+    brand: randomBrand(),
+    color: "Seal Gray",
+    sku: randomNum(10),
+    stock: randomNum(2),
+    size: "3 Seater",
+  },
+  {
+    id: 3,
+    name: "Gypsy 1 Seater Sofa",
+    desc: "A Mid-Century Modern slim curvilinear sofa upholstered with fabric frame made from solid wood.",
+    price: "11200",
+    category: { id: 1, name: "Sofa" },
+    img: sofaImg3,
+    brand: randomBrand(),
+    color: "Butty Beige",
+    sku: randomNum(10),
+    stock: randomNum(2),
+    size: "1 Seater",
+  },
+  {
+    id: 4,
+    name: "Panther 2 Seater Sofa",
+    desc: "A Modern Contemporary style 2-seater sofa made with metal framing, fully padded and upholstered in fabric.",
+    price: "7788",
+    category: { id: 1, name: "Sofa" },
+    img: sofaImg4,
+    brand: randomBrand(),
+    color: "Gray",
+    sku: randomNum(10),
+    stock: randomNum(2),
+    size: "2 Seaters",
+  },
+  {
+    id: 5,
+    name: "Maeve Sofabed",
+    desc: "A Modern Contemporary sofa upholstered in fabric padded with polyurethane foam, constructed from plywood and solidwood with metal legs.",
+    price: "13550",
+    category: { id: 1, name: "Sofa" },
+    img: sofaImg5,
+    brand: randomBrand(),
+    color: "GJasper",
+    sku: randomNum(10),
+    stock: randomNum(2),
+    size: "3 Seater",
+  },
+
+  // ==============================================
+  // ============ MATTRESS  SECTION ===============
+  // ==============================================
+
+  {
+    id: 6,
+    name: "Maven Comfort Mattress",
+    desc: "A 14 inches euro on pillow top mattress that is made of high resilient latex feel foam, Anti bacterial & Anti dust mite fabric with Pocketed spring system.",
+    price: "44765",
+    category: { id: 2, name: "Mattress" },
+    img: "https://cdn.shopify.com/s/files/1/0290/6177/5439/products/OrthoComfort_39223839_5_1000x.jpg?v=1649588039",
+    brand: randomBrand(),
+    color: "Light Gray",
+    sku: randomNum(10),
+    stock: randomNum(2),
+    size: "Queen 14 x 60 x 75 in",
+  },
+  {
+    id: 7,
+    name: "King Koil Kingsley",
+    desc: "A mattress made of Chriropractic Spring Coil with 3 inch euro top that provide additonal solid back and neck support. With Chriropractic Spring Imported knitted fabric treated with sanitized for constant protection against bacteria, dust mites and allergens.",
+    price: "45885",
+    category: { id: 2, name: "Mattress" },
+    img: "https://cdn.shopify.com/s/files/1/0290/6177/5439/products/KingKoilKingsley_10425714_3_1000x.jpg?v=1649408503",
+    brand: randomBrand(),
+    color: "Light Gray",
+    sku: randomNum(10),
+    stock: randomNum(2),
+    size: "Queen 12 x 60 x 75 in",
+  },
+  {
+    id: 8,
+    name: "Viscount Mattress",
+    desc: "A 8.5-inch thick soft mattress in an orthopedic high profile bonnel spring 2.34mm gauge wire 5.00 mm edge wire clinched with imported steel clip on edge coils, layers of high density foam and firmflex insulation for durability and eliminating spring feel, knit ticking cover treated with Sanitized for constant protection against bacteria, dust mites and allergens.",
+    price: "24765",
+    category: { id: 2, name: "Mattress" },
+    img: "https://cdn.shopify.com/s/files/1/0290/6177/5439/products/Philbed-Viscount-Mattress-38176991-_12_1000x.jpg?v=1607484844",
+    brand: randomBrand(),
+    color: "Light Gray",
+    sku: randomNum(10),
+    stock: randomNum(2),
+    size: "Queen 8.5 x 60 x 75",
+  },
+  {
+    id: 9,
+    name: " Queen Anne Mattress",
+    desc: "A 10-inch thick firm mattress in an orthopedic high profile bonnel spring 2.34mm gauge wire 5.00 mm edge wire clinched with imported steel clip on edge coils, Posture Cylinder on the surface of every other coil of the spring to become stable and firm, layers of high density foam and firmflex insulation for durability and eliminating spring feel, knit ticking cover treated with Sanitized for constant protection against bacteria, dust mites and allergens.",
+    price: "31960",
+    category: { id: 2, name: "Mattress" },
+    img: "https://cdn.shopify.com/s/files/1/0290/6177/5439/products/AmbassadorQueenAnneMattress_10348599_1000x.jpg?v=1647238671",
+    brand: randomBrand(),
+    color: "Light Gray",
+    sku: randomNum(10),
+    stock: randomNum(2),
+    size: "Queen 10 x 60 x 75",
+  },
+  {
+    id: 10,
+    name: " Spine Reserve Mattress",
+    desc: "Immerse into the most comfortable sleeping space with relieving support. Reserve is the ideal option to rejuvenate through its soothing top Latex Layer and Luxurious Knit cover enhanced with support to achieve undisturbed sleep through its 5 zone Pocket Spring. Ease your fatigue and create your own personal consolation.",
+    price: "77000",
+    category: { id: 2, name: "Mattress" },
+    img: "https://cdn.shopify.com/s/files/1/0290/6177/5439/products/39227680SERTA13X60X75RESEVE_3_1000x.jpg?v=1646374346",
+    brand: randomBrand(),
+    color: "Light Gray",
+    sku: randomNum(10),
+    stock: randomNum(2),
+    size: "Queen 13 x 60 x 75 in",
+  },
+
+  // ==============================================
+  // ============ CABINET  SECTION ================
+  // ==============================================
+  {
+    id: 11,
+    name: "Holand Chest of 6 Drawers",
+    desc: "A Mid-Century Modern chest of drawers tabler made from composite oak, narra, kiln dried pinewood and solid wood footings",
+    price: "19950",
+    category: { id: 3, name: "Cabinet" },
+    img: cabinateImg1,
+    brand: randomBrand(),
+    color: "Natural",
+    sku: randomNum(10),
+    stock: randomNum(2),
+    size: "6 Drawers",
+  },
+  {
+    id: 12,
+    name: "Pardon Chest of 3 Drawers",
+    desc: "A Scandinavian style chest of drawers made from oak veneer wood with metal drawer handles and legs.",
+    price: "12565",
+    category: { id: 3, name: "Cabinet" },
+    img: cabinateImg2,
+    brand: randomBrand(),
+    color: "Natural",
+    sku: randomNum(10),
+    stock: randomNum(2),
+    size: "3 Drawers",
+  },
+  {
+    id: 13,
+    name: "Harvin Chest of Drawers",
+    desc: "A Mid-Century Modern two-toned chest of drawer in oak and wengue with two sliding drawers Kiln-dried pinewood with narra plywood in oak finish.",
+    price: "14950",
+    category: { id: 3, name: "Cabinet" },
+    img: cabinateImg3,
+    brand: randomBrand(),
+    color: "Lt Oak",
+    sku: randomNum(10),
+    stock: randomNum(2),
+    size: "6 Drawers",
+  },
+  {
+    id: 14,
+    name: "Tia I Sliding Glass Door Wardrobe",
+    desc: "A Modern Contemporary style sliding wardrobe with glass door and 2 drawers and automatic light sensor.",
+    price: "34950",
+    category: { id: 3, name: "Cabinet" },
+    img: cabinateImg4,
+    brand: randomBrand(),
+    color: "Walnut",
+    sku: randomNum(10),
+    stock: randomNum(2),
+    size: "2-Door",
+  },
+  {
+    id: 15,
+    name: "Titus Sliding Door Wardrobe",
+    desc: "A Modern Contemporary style sliding wardrobe door and 2 drawers.",
+    price: "77000",
+    category: { id: 3, name: "Cabinet" },
+    img: cabinateImg5,
+    brand: randomBrand(),
+    color: "Walnut",
+    sku: randomNum(10),
+    stock: randomNum(2),
+    size: "2-Door",
+  },
+
+  // ==============================================
+  // ============== CHAIR  SECTION ================
+  // ==============================================
+  {
+    id: 16,
+    name: "Guida Dining Chair",
+    desc: "A Mid-Century Modern style dining chair made from rubberwood framing, padded and upholstered with fabric.",
+    price: "68650",
+    category: { id: 4, name: "Chair" },
+    img: chairImg1,
+    brand: randomBrand(),
+    color: "Blue",
+    sku: randomNum(10),
+    stock: randomNum(2),
+    size: "1 Seater",
+  },
+  {
+    id: 17,
+    name: "Tania Dining Chair",
+    desc: "A Modern Contemporary folding chair made from plastic with metal leg in powder coated finish.",
+    price: "5000",
+    category: { id: 4, name: "Chair" },
+    img: chairImg2,
+    brand: randomBrand(),
+    color: "Pink",
+    sku: randomNum(10),
+    stock: randomNum(2),
+    size: "1 Seater",
+  },
+  {
+    id: 18,
+    name: "Selma Dining Chair",
+    desc: "A Mid-Century Modern dining chair with bentwood backrest design, made from Malaysian oak in veneer finish with challis fabric padded seat.",
+    price: "6959",
+    category: { id: 4, name: "Chair" },
+    img: chairImg3,
+    brand: randomBrand(),
+    color: "Cocoa Navy",
+    sku: randomNum(10),
+    stock: randomNum(2),
+    size: "1 Seater",
+  },
+  {
+    id: 19,
+    name: "Irene Dining Chair",
+    desc: "A Modern Contemporary dining chair fully upholstered with PU leather.",
+    price: "3952",
+    category: { id: 4, name: "Chair" },
+    img: chairImg4,
+    brand: randomBrand(),
+    color: " Black",
+    sku: randomNum(10),
+    stock: randomNum(2),
+    size: "1 Seater",
+  },
+  {
+    id: 20,
+    name: "Alexa Dining Chair",
+    desc: "A Modern Contemporary dining chair in simple and clean lines, kiln-dried mahogany solid wood frame with wood stained reinforced corner blocks upholstery made of polyfoam and fiber fill.",
+    price: "14950",
+    category: { id: 4, name: "Chair" },
+    img: chairImg5,
+    brand: randomBrand(),
+    color: "Beige",
+    sku: randomNum(10),
+    stock: randomNum(2),
+    size: "1 Seater",
+  },
+
+  // ==============================================
+  // =============== TABLE SECTION ================
+  // ==============================================
+  {
+    id: 21,
+    name: "Stansie Center Table",
+    desc: "A Modern Contemporary center table inspired by a lattice pattern. Clear tempered glass with metal chrome legs in silver finish.",
+    price: "14950",
+    category: { id: 5, name: "Table" },
+    img: tableImg1,
+    brand: randomBrand(),
+    color: "Silver/Clear",
+    sku: randomNum(10),
+    stock: randomNum(2),
+    size: "L120 x W60 x H40 cm",
+  },
+  {
+    id: 22,
+    name: "Fallon Center Table",
+    desc: "A Modern Contemporary center table with drawers made from medium density fiber board, laminated with imported PVC vinyl, and has square tubular metal legs painted with antique gold powder finish.",
+    price: "14950",
+    category: { id: 5, name: "Table" },
+    img: tableImg2,
+    brand: randomBrand(),
+    color: "Mocha Gray",
+    sku: randomNum(10),
+    stock: randomNum(2),
+    size: "L91.44 x 60.96 x 40.64 cm",
+  },
+  {
+    id: 23,
+    name: "Geline II Dining Table",
+    desc: "A Mid-Century Modern dining table made laminated boards with laminated veneer with kiln solid wood legs in stain finish.",
+    price: "37950",
+    category: { id: 5, name: "Table" },
+    img: tableImg3,
+    brand: randomBrand(),
+    color: "Walnut",
+    sku: randomNum(10),
+    stock: randomNum(2),
+    size: "8 seater L220 x W100 x H75 cm",
+  },
+  {
+    id: 24,
+    name: "Gabby Dining Table",
+    desc: "A Classic wooden dining table ideal for limited floor areas made from solid mahogany wood and MDF.",
+    price: "12950",
+    category: { id: 5, name: "Table" },
+    img: tableImg4,
+    brand: randomBrand(),
+    color: "Walnut",
+    sku: randomNum(10),
+    stock: randomNum(2),
+    size: "2 Seater L75 x W75 x H73 cm",
+  },
+  {
+    id: 25,
+    name: "Hendrix Extendable Dining Table",
+    desc: "A Mid-Century Modern extendable dining table with E2 MDF table and veneer finish table top with solid black detail and solid rubberwood legs.",
+    price: "27950",
+    category: { id: 5, name: "Table" },
+    img: tableImg5,
+    brand: randomBrand(),
+    color: "Walnut/Black",
+    sku: randomNum(10),
+    stock: randomNum(2),
+    size: "6 Seater L150+39 x W90 x H75 cm",
+  },
+];
+
+export default furniture_data;

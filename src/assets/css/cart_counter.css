@@ -1,0 +1,64 @@
+@media screen and (min-width: 992.98px) {
+  .counter_container {
+    display: flex;
+    align-items: center;
+  }
+
+  .counter_container h3 {
+    font-family: sans-bold;
+    width: 50px;
+    text-align: center;
+    height: 32px;
+    padding-top: 3px;
+    border-top: 1px solid rgba(0, 0, 0, 0.225);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.225);
+  }
+
+  .counter_container button {
+    font-family: sans-reg;
+    font-size: 22px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    outline: none;
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.225);
+    transition: all 0.1s ease-in;
+  }
+  .counter_container button:hover {
+    background: rgba(18, 18, 18, 0.079);
+  }
+}
+
+@media screen and (max-width: 992.98px) {
+  .counter_container {
+    display: flex;
+    align-items: center;
+  }
+
+  .counter_container h3 {
+    font-family: sans-bold;
+    width: 45px;
+    text-align: center;
+    height: 28px;
+    font-size: 16px;
+    padding-top: 3px;
+    border-top: 1px solid rgba(0, 0, 0, 0.225);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.225);
+  }
+
+  .counter_container button {
+    font-family: sans-reg;
+    font-size: 18px;
+    width: 29px;
+    height: 28px;
+    cursor: pointer;
+    outline: none;
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.225);
+    transition: all 0.1s ease-in;
+  }
+  .counter_container button:hover {
+    background: rgba(18, 18, 18, 0.079);
+  }
+}

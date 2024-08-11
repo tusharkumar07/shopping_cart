@@ -1,0 +1,35 @@
+@media screen and (min-width: 100px) {
+  footer {
+    margin-top: auto;
+    padding: 12px;
+    box-shadow: 0 -4px 30px rgba(113, 150, 191, 0.149);
+  }
+
+  .footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+  }
+
+  .footer a {
+    display: flex;
+    font-size: 18px;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.225);
+    color: orangered;
+  }
+
+  .footer p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: sans-bold;
+    color: orangered;
+  }
+}

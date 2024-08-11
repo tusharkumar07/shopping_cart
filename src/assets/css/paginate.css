@@ -1,0 +1,144 @@
+@media screen and (min-width: 1200px) {
+  .paginate {
+    margin-top: 20px;
+  }
+
+  .paginate ul {
+    display: flex;
+  }
+
+  .paginate li {
+    border: 1px solid var(--normal-green);
+    color: var(-black);
+    font-family: sans-bold;
+    cursor: pointer;
+    font-size: 16px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+
+  .paginate li.active {
+    background: var(--normal-green);
+    color: white;
+  }
+}
+
+@media screen and (991.98px <= width <= 1199.98px) {
+  .paginate {
+    margin-top: 20px;
+  }
+
+  .paginate ul {
+    display: flex;
+  }
+
+  .paginate li {
+    border: 1px solid var(--normal-green);
+    color: var(-black);
+    font-family: sans-bold;
+    cursor: pointer;
+    font-size: 15px;
+    width: 33px;
+    height: 33px;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+
+  .paginate li.active {
+    background: var(--normal-green);
+    color: white;
+  }
+}
+
+@media screen and (767.98px <= width <= 991.98px) {
+  .paginate {
+    margin-top: 20px;
+  }
+
+  .paginate ul {
+    display: flex;
+  }
+
+  .paginate li {
+    border: 1px solid var(--normal-green);
+    color: var(-black);
+    font-family: sans-bold;
+    cursor: pointer;
+    font-size: 15px;
+    width: 31px;
+    height: 31px;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+
+  .paginate li.active {
+    background: var(--normal-green);
+    color: white;
+  }
+}
+
+@media screen and (575.99px <= width <= 767.98px) {
+  .paginate {
+    margin-top: 20px;
+  }
+
+  .paginate ul {
+    display: flex;
+  }
+
+  .paginate li {
+    border: 1px solid var(--normal-green);
+    color: var(-black);
+    font-family: sans-bold;
+    cursor: pointer;
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+
+  .paginate li.active {
+    background: var(--normal-green);
+    color: white;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .paginate {
+    margin-top: 20px;
+  }
+
+  .paginate ul {
+    display: flex;
+  }
+
+  .paginate li {
+    border: 1px solid var(--normal-green);
+    color: var(-black);
+    font-family: sans-bold;
+    cursor: pointer;
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+
+  .paginate li.active {
+    background: var(--normal-green);
+    color: white;
+  }
+}

@@ -1,0 +1,67 @@
+@font-face {
+  font-family: oswald-bold;
+  src: url("../fonts//Oswald-Bold.ttf");
+}
+
+@font-face {
+  font-family: sans-light;
+  src: url("../fonts/SourceSansPro-Light.ttf");
+}
+
+@font-face {
+  font-family: sans-reg;
+  src: url("../fonts/SourceSansPro-Regular.ttf");
+}
+
+@font-face {
+  font-family: sans-bold;
+  src: url("../fonts/SourceSansPro-Bold.ttf");
+}
+
+/* ========= GLOBAL CONFIGURATION =========== */
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --darkest-green: #011c0d;
+  --dark-green: #c43408f7;
+  --normal-green: #05c95d;
+  --light-green: #42fa94;
+  --lightest-green: #95fcc3;
+  --white: #ffffff;
+  --black: #102a42;
+}
+
+.container {
+  max-width: 1350px;
+  width: 85vw;
+  margin: 0 auto;
+}
+
+/* img {
+  max-width: 100%;
+} */
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+

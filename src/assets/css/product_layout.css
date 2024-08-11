@@ -1,0 +1,309 @@
+@media screen and (min-width: 1200px) {
+  .product_layout {
+    padding: 80px 40px 40px 40px;
+  }
+
+  .product_layout_container {
+    display: flex;
+    gap: 20px;
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+
+  .product_layout_left {
+    flex: 0.2 1;
+  }
+
+  .product_layout_left .search_bar {
+    margin-bottom: 15px;
+  }
+
+  .product_layout_left .search_bar input {
+    width: 100%;
+    padding: 6px;
+    font-family: sans-reg;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.225);
+    outline: none;
+    background-color: rgba(194, 222, 255, 0.149);
+    color: var(--black);
+  }
+
+  .product_layout_right {
+    flex: 0.8 1;
+  }
+
+  .product_layout_right .item_message {
+    margin-bottom: 20px;
+    position: relative;
+  }
+  .product_layout_right .item_message h4 {
+    font-family: sans-reg;
+    font-size: 20px;
+    color: orangered;
+    margin-top: 2px;
+    /* margin-left: 20px; */
+  }
+
+  .product_layout_right .item_message h4::after {
+    content: "";
+    width: 5%;
+    background: rgb(61, 233, 61);
+    padding: 1.5px;
+    position: absolute;
+    margin-left: 10px;
+    top: 13px;
+  }
+
+  .product_layout_right .no_item h3 {
+    font-family: sans-reg;
+    font-size: 20px;
+    color: var(--black);
+  }
+}
+
+@media screen and (991.98px <= width <= 1199.98px) {
+  .product_layout {
+    padding: 45px 30px;
+  }
+
+  .product_layout_left {
+    flex: 0.3 1;
+  }
+
+  .product_layout_container {
+    display: flex;
+    gap: 20px;
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+
+  .product_layout_left .search_bar {
+    margin-bottom: 15px;
+  }
+
+  .product_layout_left .search_bar input {
+    width: 100%;
+    padding: 6px;
+    font-family: sans-reg;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.225);
+    outline: none;
+    background-color: rgba(194, 222, 255, 0.149);
+    color: var(--black);
+  }
+
+  .product_layout_right {
+    flex: 1 1;
+  }
+
+  .product_layout_right .item_message {
+    margin-bottom: 20px;
+    position: relative;
+  }
+  .product_layout_right .item_message h4 {
+    font-family: sans-reg;
+    font-size: 18px;
+    color: orangered;
+    margin-top: 2px;
+    /* margin-left: 20px; */
+  }
+
+  .product_layout_right .item_message h4::after {
+    content: "";
+    width: 5%;
+    background: rgb(61, 233, 61);
+    padding: 1.5px;
+    position: absolute;
+    margin-left: 10px;
+    top: 13px;
+  }
+
+  .product_layout_right .no_item h3 {
+    font-family: sans-reg;
+    font-size: 18px;
+    color: var(--black);
+  }
+}
+
+@media screen and (767.98px <= width <= 991.98px) {
+  .product_layout {
+    padding: 45px 30px;
+  }
+
+  .product_layout_container {
+    display: flex;
+    gap: 20px;
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+
+  .product_layout_left .search_bar {
+    margin-bottom: 15px;
+  }
+
+  .product_layout_left .search_bar input {
+    width: 100%;
+    padding: 6px;
+    font-family: sans-reg;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.225);
+    outline: none;
+    background-color: rgba(194, 222, 255, 0.149);
+    color: var(--black);
+  }
+
+  .product_layout_right {
+    flex: 1 1;
+  }
+
+  .product_layout_right .item_message {
+    margin-bottom: 20px;
+    position: relative;
+  }
+  .product_layout_right .item_message h4 {
+    font-family: sans-reg;
+    font-size: 18px;
+    color: orangered;
+    margin-top: 2px;
+    /* margin-left: 20px; */
+  }
+
+  .product_layout_right .item_message h4::after {
+    content: "";
+    width: 5%;
+    background: rgb(61, 233, 61);
+    padding: 1.5px;
+    position: absolute;
+    margin-left: 10px;
+    top: 13px;
+  }
+
+  .product_layout_right .no_item h3 {
+    font-family: sans-reg;
+    font-size: 18px;
+    color: var(--black);
+  }
+}
+
+@media screen and (575.98px <= width <= 767.98px) {
+  .product_layout {
+    padding: 45px 30px;
+  }
+
+  .product_layout_container {
+    display: flex;
+    gap: 20px;
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+
+  .product_layout_left .search_bar {
+    margin-bottom: 15px;
+  }
+
+  .product_layout_left .search_bar input {
+    width: 100%;
+    padding: 6px;
+    font-family: sans-reg;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.225);
+    outline: none;
+    background-color: rgba(194, 222, 255, 0.149);
+    color: var(--black);
+  }
+
+  .product_layout_right {
+    flex: 1 1;
+  }
+
+  .product_layout_right .item_message {
+    margin-bottom: 20px;
+    position: relative;
+  }
+  .product_layout_right .item_message h4 {
+    font-family: sans-reg;
+    font-size: 18px;
+    color: orangered;
+    margin-top: 2px;
+    /* margin-left: 20px; */
+  }
+
+  .product_layout_right .item_message h4::after {
+    content: "";
+    width: 5%;
+    background: rgb(61, 233, 61);
+    padding: 1.5px;
+    position: absolute;
+    margin-left: 10px;
+    top: 13px;
+  }
+
+  .product_layout_right .no_item h3 {
+    font-family: sans-reg;
+    font-size: 18px;
+    color: var(--black);
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .product_layout {
+    padding: 45px 30px;
+  }
+
+  .product_layout_left {
+    margin-bottom: 50px;
+  }
+
+  .product_layout_left .search_bar {
+    margin-bottom: 15px;
+  }
+
+  .product_layout_left .search_bar input {
+    width: 100%;
+    padding: 6px;
+    font-family: sans-reg;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.225);
+    outline: none;
+    background-color: rgba(194, 222, 255, 0.149);
+    color: var(--black);
+  }
+
+  .product_layout_right {
+    flex: 0.8 1;
+  }
+
+  .product_layout_right .item_message {
+    margin-bottom: 20px;
+    position: relative;
+  }
+  .product_layout_right .item_message h4 {
+    font-family: sans-reg;
+    font-size: 18px;
+    color:orangered;
+    margin-top: 2px;
+    /* margin-left: 20px; */
+  }
+
+  .product_layout_right .item_message h4::after {
+    content: "";
+    width: 5%;
+    background: rgb(61, 233, 61);
+    padding: 1.5px;
+    position: absolute;
+    margin-left: 10px;
+    top: 13px;
+  }
+
+  .product_layout_right .no_item h3 {
+    font-family: sans-reg;
+    font-size: 18px;
+    color: var(--black);
+  }
+}
