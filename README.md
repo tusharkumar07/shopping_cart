@@ -35,3 +35,8 @@ Check out the live demo of CartSwift [here](https://shopping-cart-rosy-six.verce
 1. Clone the repository:
    ```bash
    git clone https://github.com/tusharkumar07/shopping_cart.git
+
+## Screenshots
+
+### Main Interface
+![Main Interface](src/assets/img/HeroSection.png)
