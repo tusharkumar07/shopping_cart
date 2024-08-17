@@ -40,3 +40,15 @@ Check out the live demo of CartSwift [here](https://shopping-cart-rosy-six.verce
 
 ### Main Interface
 ![Main Interface](src/assets/img/HeroSection.png)
+
+### Products Detail
+![Main Interface](src/assets/img/productsSection.png)
+
+### Add to Cart Section
+![Main Interface](src/assets/img/addToCartSection.png)
+
+### Cart without any Item
+![Main Interface](src/assets/img/cartEmpty.png)
+
+### Cart with Items
+![Main Interface](src/assets/img/cartFullSection.png)
