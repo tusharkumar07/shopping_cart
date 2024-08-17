@@ -30,11 +30,17 @@ Check out the live demo of CartSwift [here](https://shopping-cart-rosy-six.verce
 - Node.js (version 12.x or higher)
 - npm (version 6.x or higher)
 
-### Installation
-
-1. Clone the repository:
+## Installation
+```
+## Clone the repository:
    ```bash
    git clone https://github.com/tusharkumar07/shopping_cart.git
+
+## To Run
+Install my-project with npm
+```bash
+  cd cartSwift -> npm run dev
+```
 
 ## Screenshots
 
@@ -52,3 +58,6 @@ Check out the live demo of CartSwift [here](https://shopping-cart-rosy-six.verce
 
 ### Cart with Items
 ![Main Interface](src/assets/img/cartFullSection.png)
+
+## Authors
+ [@Tushar Kumar](https://github.com/tusharkumar07)
